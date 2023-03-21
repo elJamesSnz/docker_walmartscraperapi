@@ -1,4 +1,4 @@
-# docker_walmartapi
+# docker_walmart_productapi
  
 Título del proyecto
 Walmart Scraping Dockerized App
@@ -45,7 +45,7 @@ Se puede ver en consola el mensaje "no hay click and hold" cuando no tuvo que cu
 # 4 Uso
 Instrucciones para su uso.
 
-## 4.1 PRIMER EJERCICIO.
+## 4.1 PRIMER EJERCICIO. (walmartscraperapi)
 ### Iniciar contenedor docker
 docker build -t django_project .
 ### Ejecutar contenedor
@@ -71,7 +71,7 @@ Ingresar URL http://127.0.0.1:8080/api/scraper/despensa/
 
 NOTA. Para ambos casos, la petición tarda por la posible verificación click & hold.
 
-## 4.2 SEGUNDO EJERCICIO.
+## 4.2 SEGUNDO EJERCICIO. (docker_walmart_productapi)
 
 ### 4.2.1 Obtener JSON (POSTMAN o Cliente REST)
 
@@ -93,3 +93,4 @@ Para el segundo ejercicio, desde la página a la que se accede en Walmart (lista
 
 # Autores
 Angel Sánchez
+
