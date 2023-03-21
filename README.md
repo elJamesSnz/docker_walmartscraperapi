@@ -1,8 +1,5 @@
 # docker_walmart_productapi
  
-Título del proyecto
-Walmart Scraping Dockerized App
-
 # 1. Librerías usadas
 
 ## Lista de las librerías utilizadas en el proyecto.
@@ -77,7 +74,7 @@ NOTA. Para ambos casos, la petición tarda por la posible verificación click & 
 
 En Postman o Cliente REST hacer request GET
 URL. http://127.0.0.1:8080/api/scraper/categoria/
-Agregar url a los parámetros del BODY. RAW -> JSON
+Agregar url a los parámetros del BODY. RAW -> JSON 
 
 {    
     "url": "https://super.walmart.com.mx/content/abarrotes/cafe-te-y-sustitutos/120005_120070"
@@ -86,11 +83,17 @@ Agregar url a los parámetros del BODY. RAW -> JSON
 ![image](https://user-images.githubusercontent.com/72090281/226527257-a55dc715-8b80-446a-9965-0308dddbf0e1.png)
 
 
+Nota: El URL debe ser alguna subcategoría del URL https://super.walmart.com.mx/all-departments
+
 Salida.
 
-Para el segundo ejercicio, desde la página a la que se accede en Walmart (listado de productos por categoría seleccionada) se presenta un bloqueo adicional que no permite recuperar los productos desde el contenedor
+Para el segundo ejercicio, desde la página a la que se accede en Walmart (listado de productos por categoría seleccionada) se presenta un bloqueo adicional que no permite recuperar los productos desde el contenedor de Docker
 
+![image](https://user-images.githubusercontent.com/72090281/226670580-f3541e05-9a51-43a9-b965-d40be9bc1da0.png)
+
+La salida esperada se encuentra en el repo de ejecutables: https://github.com/elJamesSnz/walmart-webscraping-apps
+
+![image](https://user-images.githubusercontent.com/72090281/226673475-95d69889-861f-4887-b3d3-c69376f3d0fa.png)
 
 # Autores
 Angel Sánchez
-
