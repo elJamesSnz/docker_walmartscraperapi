@@ -18,10 +18,10 @@ Instrucciones para instalar proyecto (VS Code)
 
 Clonar proyecto
 
-Iniciar contenedor docker
-# docker build -t django_project .
-Ejecutar contenedor
-# docker run -d -p 8080:8000 django_project
+# Iniciar contenedor docker
+docker build -t django_project .
+# Ejecutar contenedor
+docker run -d -p 8080:8000 django_project
 
 3. Posibles incidencias
 Lista de posibles incidencias.
