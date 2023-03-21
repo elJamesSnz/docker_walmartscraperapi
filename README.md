@@ -3,9 +3,9 @@
 Título del proyecto
 Walmart Scraping Dockerized App
 
-1. Librerías usadas
+# 1. Librerías usadas
 
-Lista de las librerías utilizadas en el proyecto.
+## Lista de las librerías utilizadas en el proyecto.
 - Selenium
 - DJangorestframework
 - webdriver-manager
@@ -13,20 +13,22 @@ Lista de las librerías utilizadas en el proyecto.
 Lista de frameworks utilizados.
 - DJango
 
-2. Pasos para instalación
+# 2. Pasos para instalación
 Instrucciones para instalar proyecto (VS Code)
 
-Clonar proyecto
+## Clonar proyecto
+Usar Github Desktop
 
-# Iniciar contenedor docker
+## Iniciar contenedor docker
 docker build -t django_project .
-# Ejecutar contenedor
+
+## Ejecutar contenedor
 docker run -d -p 8080:8000 django_project
 
-3. Posibles incidencias
+# 3. Posibles incidencias
 Lista de posibles incidencias.
 
-3.1 Bloqueos
+## 3.1 Bloqueos
 Walmart no es amigable para desarrolladores que intentan obtener información de su página a través de web scraping. Tienen desafíos que buscan prevenir el uso de bots / webdrivers
 
 3.2 Complejidades
