@@ -95,5 +95,5 @@ La salida esperada se encuentra en el repo de ejecutables: https://github.com/el
 
 ![image](https://user-images.githubusercontent.com/72090281/226673475-95d69889-861f-4887-b3d3-c69376f3d0fa.png)
 
-# Autores
+# Autor
 Angel Sánchez
